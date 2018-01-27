@@ -16,18 +16,8 @@
 
 * git commit --amend - modifica el mensaje del commit mas reciente. tambien se puede utilizar para remplazar el commit mas reciente agregandole archivos adicionales. Estos archivos deben estar en el area de preparacion. al utilizar esta sentencia lo que lograresmos es remplazar tanto los archivos como la descripcion del commit.
 
-* git log -Este comando sirve para ver los commits en el repositorio.
+* git diff - Nos muestra cual es la diferencia entre el directorio de trabajo y los archivos confirmados en el commit. Tambien es utilizado para ver la diferencia entre dos commit de diferente linea de tiempo.
 
-* git log -- oneline - muestra el historial agregado en una sola linea. Se puede utilizar jumto con con --graph.
+* git diff --staged - muestra la difenrencia estre el directorio de trabajo y el archivo de la zona de preparacion.
 
-* git log -- graph - muestra el historial de commit por ramificaciones graficas. Se puede utilizar con --oneline.
-
-* git log -- decorate -  este comando sirve para ver las ramas y las etiquetas que conresponde a cada commit. Ojo para mostrar todos los commit independientemente del punto del tiempo en que estemos utilizaremos la bandera --all.
-
-* git log -[numero de commit] - muestra el numero commit que se especifica.
-
-* git log --before="Año-mes-dia"- muestra el historial de commit "ANTES DE" la fecha indicada se puede combinar con --after.
-
-* git log --after="Año-mes-dia"- muestra el historial de commit "DESPUES" de la fecha indicada se puede combinar con --before.
-
-* git log --pretty=format: parametros de formato - despues de los dos punto ubicados en la sentencia format tomara en cuenta los puntos y comas que se escriban entre la sentencia. Es importante que los parametros esten entre comillas.
+* gitinore - series de archivos que vamos a ignorar que no queremos que sean rasteables. Este archivo en una carpeta y los archivos que queremos que se  ignoren los ponemos dentro de ese archivo.
