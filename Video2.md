@@ -14,8 +14,6 @@
 
 * git commit -a -m "Comentario desciptivo" - agrega el archivo directamente al repositorio sin pasa por el area de preparacion de archivo. En otras palabras pasa del directorio de trabajo a el repositorio git de manera directa. Para que esto sea posible tenemos que seguir primero los archivos si no, no funcionra.
 
-* git commit --amend - modifica el mensaje del commit mas reciente. tambien se puede utilizar para remplazar el commit mas reciente agregandole archivos adicionales. Estos archivos deben estar en el area de preparacion. al utilizar esta sentencia lo que lograresmos es remplazar tanto los archivos como la descripcion del commit.
-
 * git diff - Nos muestra cual es la diferencia entre el directorio de trabajo y los archivos confirmados en el commit. Tambien es utilizado para ver la diferencia entre dos commit de diferente linea de tiempo.
 
 * git diff --staged - muestra la difenrencia estre el directorio de trabajo y el archivo de la zona de preparacion.
