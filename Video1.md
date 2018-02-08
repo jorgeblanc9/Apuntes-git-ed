@@ -58,15 +58,15 @@ usuario” se corresponde con el usuario con el que hemos iniciado la sesión.
 
 Aqui tenemos algunas configuraciones importantes a tomar en cuenta : 
 
-** git config --global user.name "John Doe" - Usuario .
-** git config --global user.email johndoe@example.com -Emails.
-** git config --global core.editor nano - Editor por defecto.
-** git config --global diff.tool vimdiff -  Mostrar las diferencias entre dos archivos.
-** git config --global merge.tool vimdiff - Herramienta de resolucion de conflicto entre ramas.
-** git config --list -- Mostar las configuraciones del sistema.
-** git config --global color.ui true - Mostrar colores en la salida y poder notar mejor los cambios.
-** git config --global core.autocrlf true - Recomendado en Window.
-** git config --global core.autocrlf input - Recomendado en Unix.
+#### git config --global user.name "John Doe" - Usuario .
+#### git config --global user.email johndoe@example.com -Emails.
+#### git config --global core.editor nano - Editor por defecto.
+#### git config --global diff.tool vimdiff -  Mostrar las diferencias entre dos archivos.
+#### git config --global merge.tool vimdiff - Herramienta de resolucion de conflicto entre ramas.
+#### git config --list -- Mostar las configuraciones del sistema.
+#### git config --global color.ui true - Mostrar colores en la salida y poder notar mejor los cambios.
+#### git config --global core.autocrlf true - Recomendado en Window.
+#### git config --global core.autocrlf input - Recomendado en Unix.
 
 
 ## A nivel de Proyecto
